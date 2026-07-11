@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm --version)",
+      "Bash(supabase --version)",
+      "mcp__plugin_supabase_supabase__list_projects",
+      "mcp__plugin_supabase_supabase__get_cost",
+      "WebFetch(domain:supabase.com)",
+      "mcp__plugin_supabase_supabase__confirm_cost",
+      "Bash(mv .claude /tmp/inflables-claude-backup)",
+      "Bash(npx -y create-next-app@15 . --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(mv /tmp/inflables-claude-backup .claude)",
+      "mcp__plugin_supabase_supabase__create_project"
+    ]
+  }
+}
